@@ -4,9 +4,6 @@ alias reloadshell="source $HOME/.zshrc"
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 alias ll="/opt/homebrew/opt/coreutils/libexec/gnubin/ls -AhlFo --color --group-directories-first"
 
-# Open application
-alias idea="open -na \"IntelliJ IDEA.app\""
-
 # Directories
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"

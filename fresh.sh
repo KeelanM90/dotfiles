@@ -39,6 +39,9 @@ ln -sfn \
      /opt/homebrew/opt/openjdk/libexec/openjdk.jdk \
      /Library/Java/JavaVirtualMachines/openjdk.jdk
 
+# Install vscode extensions
+./install-vscode-extensions.sh
+
 # Set macOS preferences - we will run this last because this will reload the shell
 # shellcheck disable=SC2039
 source ./.macos
