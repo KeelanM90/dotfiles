@@ -35,6 +35,9 @@ sudo ln -sfn \
 # Install vscode extensions
 ./install-vscode-extensions.sh
 
+# Add iterm preferences
+cp com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
+
 # Set macOS preferences - we will run this last because this will reload the shell
 # shellcheck disable=SC2039
 source ./.macos
